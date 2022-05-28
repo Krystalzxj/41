@@ -35,7 +35,7 @@ if ($trigger == "button") {
 };
 $done({
     title:"«𝑺𝒖𝒓𝒈𝒆👑𝑷𝒓𝒐™» 🧚🏻‍♀️ ➺ ✌(՞ټ՞ )✌",
-    content: "{北京时间} ➺⏰: "+ (new Date()).Format("yyyy-MM-dd HH:mm:ss")+"\n开启时长 ➺ 🐌："+startTime + "\n𝑴𝒊𝒕𝒎:"+icon_status(mitm_status.enabled)+"  𝑹𝒆𝒘𝒓𝒊𝒕𝒆:"+icon_status(rewrite_status.enabled)+"  𝑺𝒄𝒓𝒊𝒑𝒕𝒊𝒏𝒈:"+icon_status(scripting_status.enabled),
+    content: "北京时间 ➺ ⏰: "+ (new Date()).Format("yyyy-MM-dd HH:mm:ss")+"\n开启时长 ➺ 🐌："+startTime + "\n𝑴𝒊𝒕𝒎:"+icon_status(mitm_status.enabled)+"  𝑹𝒆𝒘𝒓𝒊𝒕𝒆:"+icon_status(rewrite_status.enabled)+"  𝑺𝒄𝒓𝒊𝒑𝒕𝒊𝒏𝒈:"+icon_status(scripting_status.enabled),
     icon: icon_s?"crown.fill":"xmark.seal",
    "icon-color":icon_s?"#fabf14":"#faff72"
 });
